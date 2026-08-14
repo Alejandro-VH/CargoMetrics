@@ -53,7 +53,7 @@ export default function DonutChart({
         </ResponsiveContainer>
 
         {/* Porcentaje Central */}
-        <span className="absolute text-[10px] font-extrabold text-slate-800 dark:text-slate-100 pointer-events-none tracking-tighter">
+        <span className="absolute text-[10px] font-medium text-slate-800 dark:text-slate-100 pointer-events-none tracking-tighter">
           {Math.round(mainPercentage)}%
         </span>
       </div>
@@ -70,7 +70,7 @@ export default function DonutChart({
               <span className="text-slate-600 dark:text-slate-400">
                 {item.name}:
               </span>
-              <span className="font-bold text-slate-800 dark:text-slate-200">
+              <span className="font-medium text-slate-800 dark:text-slate-200">
                 {item.value}%
               </span>
             </div>

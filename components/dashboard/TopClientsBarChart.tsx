@@ -13,11 +13,11 @@ import {
 
 // Mock data
 const data = [
-  { name: 'Líder', volume: 1450 },
-  { name: 'Codelco', volume: 1120 },
-  { name: 'Sodimac', volume: 850 },
-  { name: 'Mercado Libre', volume: 540 },
-  { name: 'CCU', volume: 210 },
+  { cliente: 'Líder', volumen: 1450 },
+  { cliente: 'Codelco', volumen: 1120 },
+  { cliente: 'Sodimac', volumen: 850 },
+  { cliente: 'Mercado Libre', volumen: 540 },
+  { cliente: 'CCU', volumen: 210 },
 ];
 
 export default function topClientsBarChart() {

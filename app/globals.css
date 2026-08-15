@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.recharts-default-tooltip {
+  @apply !bg-white dark:!bg-slate-800 !border-slate-200 dark:!border-slate-700 !rounded-lg !shadow-md !transition-colors !duration-200;
+}
+
+.recharts-tooltip-item-name, 
+.recharts-tooltip-item-separator, 
+.recharts-tooltip-item-value {
+  @apply dark:!text-slate-200;
+}
+
+.recharts-tooltip-label {
+  @apply !text-slate-500 dark:!text-slate-400 !font-semibold !mb-1;
+}
+
+.recharts-tooltip-cursor {
+  @apply fill-slate-100 dark:fill-slate-800/50 transition-colors duration-200;
+}

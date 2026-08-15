@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 CargoMetrics | Dashboard de logistica
 
-## Getting Started
+Demo de plataforma web enfocada en el monitoreo de flotas, clientes y operaciones logísticas B2B, enfocandose en la presentacion de datos orientados para la toma de decisiones gerenciales.
 
-First, run the development server:
+> La demo está compuesta por 3 vistas, cuenta con modo oscuro y con adaptabilidad para dispositivos móviles. Los datos presentados son puramente representativos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tecnologías Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
+- **Gráficos:** [Recharts](https://recharts.org/)
+- **Iconos:** [Lucide React](https://lucide.dev/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Capturas de pantallas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Vista de Dashboard**
+![Home](docs/home.png)  
 
-## Learn More
+**Vista de Dashboard en modo oscuro**
+![Home Dark](docs/home_dark.png)  
 
-To learn more about Next.js, take a look at the following resources:
+**Vista de Clientes**
+![Clientes](docs/clients.png)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Vista de Flota**
+![Flota](docs/trucks.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Instalación y Configuración Local
 
-## Deploy on Vercel
+Si deseas correr este proyecto en tu propio entorno:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clona el repositorio:
+   ```bash
+    git clone https://github.com/Alejandro-VH/CargoMetrics.git
+    cd CargoMetrics
+    ```
+2. Instalar dependencias
+    ```bash
+    npm install
+    ```
+3. Iniciar el frontend
+    ```bash
+    npm run dev
+    ```
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
